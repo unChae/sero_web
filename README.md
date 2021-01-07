@@ -1,24 +1,19 @@
 # sero_vue
 
-## Project setup
+## Project test
 ```
 npm install
+npm run server
 ```
+## Detail Info
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+###### define
+- sero post web site
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+###### env
+- vue.js
+- vuetify or bootstrap
+  
+###### update
+- 21.01.07[chae]
+  - project init
