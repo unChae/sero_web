@@ -16,9 +16,6 @@ npm run server
   
 ###### update
 - 21.01.07[chae]
-<<<<<<< HEAD
-  - project init
-=======
   - project init
   - module install(vue-router, vuetify, axios)
   - **create**
@@ -37,4 +34,12 @@ npm run server
       - Home, QRcode, Loading, Auth, Admin 라우터 추가
     - css
       - asset/styles
->>>>>>> chae
+
+- 21.01.10[chae]
+  - 로그인 구현 완료
+  - **create**
+    - Analysis.vue
+      - 분석 컴포넌트
+    - Request.vue
+      - 배송 요청 데이터 컴포넌트
+  
