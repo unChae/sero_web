@@ -34,7 +34,11 @@ npm run server
       - Home, QRcode, Loading, Auth, Admin 라우터 추가
     - css
       - asset/styles
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> chae
 - 21.01.10[chae]
   - 로그인 구현 완료
   - **create**
