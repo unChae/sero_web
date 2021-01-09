@@ -34,3 +34,6 @@ npm run server
       - Home, QRcode, Loading, Auth, Admin 라우터 추가
     - css
       - asset/styles
+
+- 21.01.09[yong]
+  - 프로젝트 합류
