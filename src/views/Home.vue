@@ -21,10 +21,11 @@
 </template>
 
 <script>
-
   export default {
     name: 'Home',
-    components: {
+    computed: {
+    },
+    mounted() {
     },
     methods: {
     }
