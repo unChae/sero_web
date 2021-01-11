@@ -55,17 +55,20 @@
 <script>
 import RequestView from './components/admin/Request'
 import AnalysisView from './components/admin/Analysis'
+import SendNotifyView from './components/admin/SendNotify'
 
   export default {
     components: {
       RequestView,
-      AnalysisView
+      AnalysisView,
+      SendNotifyView
     },
     data () {
       return {
         items: [
           { title: '요청', icon: 'mdi-bell-ring-outline', func: "requestComponent" },
           { title: '분석', icon: 'mdi-chart-box-outline', func: "analysisComponent" },
+          { title: '알람 전송', icon: 'mdi-send-outline', func: "sendNotifyComponent" },
           { title: '로그아웃', icon: 'mdi-logout-variant', func: "logout" },
         ],
         component: 'RequestView',
@@ -78,6 +81,8 @@ import AnalysisView from './components/admin/Analysis'
           this.component = "RequestView"
         } else if (func === "analysisComponent") {
           this.component = "AnalysisView"
+        } else if (func === "sendNotifyComponent") {
+          this.component = "SendNotifyView"
         } else if (func === "logout") {
           localStorage.removeItem("adId")
           localStorage.removeItem("adToken")
